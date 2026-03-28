@@ -8,14 +8,14 @@ class Solution {
         {
             freq[s.charAt(r)-'A']++;
             maxFreq = Math.max(maxFreq,freq[s.charAt(r)-'A']);
-            int win = r-left+1;
-            if(win-maxFreq>k)
+            
+            if((r-left+1)-maxFreq>k)
             {
                 freq[s.charAt(left)-'A']--;
                 left++;
             }
-            win = r-left+1;
-            maxWindow = Math.max(maxWindow,win);
+            
+            maxWindow = Math.max(maxWindow,(r-left+1));
         }
         return maxWindow;
         
