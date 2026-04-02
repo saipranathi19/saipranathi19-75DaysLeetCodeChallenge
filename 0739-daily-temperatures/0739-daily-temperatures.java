@@ -5,7 +5,7 @@ class Solution {
         int n = temperatures.length;
         int[] answer = new int[n];
 
-        Stack<Integer> stack = new Stack<>(); // stores indices
+        Stack<Integer> stack = new Stack<>();
 
         for (int i = 0; i < n; i++) {
 
