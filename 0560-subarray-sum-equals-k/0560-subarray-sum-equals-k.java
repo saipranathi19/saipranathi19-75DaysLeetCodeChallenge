@@ -2,22 +2,21 @@ import java.util.*;
 
 class Solution {
     public int subarraySum(int[] nums, int k) {
-        int sum = 0, c = 0;
-        Map<Integer, Integer> mp = new HashMap<>();
+        int sum = 0, count = 0;
+        Map<Integer, Integer> m = new HashMap<>();
         
-        mp.put(0, 1);
+        m.put(0, 1); // base case
         
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
             
-            if (mp.containsKey(sum - k)) {
-                c += mp.get(sum - k);
+            if (m.containsKey(sum - k)) {
+                count += m.get(sum - k);
             }
             
-            
-            mp.put(sum, mp.getOrDefault(sum, 0) + 1);
+            m.put(sum, m.getOrDefault(sum, 0) + 1);
         }
         
-        return c;
+        return count;
     }
 }
