@@ -5,7 +5,7 @@ class Solution {
         int sum = 0, count = 0;
         Map<Integer, Integer> m = new HashMap<>();
         
-        m.put(0, 1); // base case
+        m.put(0, 1);
         
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
