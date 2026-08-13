@@ -25,4 +25,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/saipranathi19/saipranathi19-75DaysLeetCodeChallenge/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
+## String
+|  |
+| ------- |
+| [0006-zigzag-conversion](https://github.com/saipranathi19/saipranathi19-75DaysLeetCodeChallenge/tree/master/0006-zigzag-conversion) |
 <!---LeetCode Topics End-->
