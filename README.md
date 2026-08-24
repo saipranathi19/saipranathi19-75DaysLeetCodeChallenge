@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/saipranathi19/saipranathi19-75DaysLeetCodeChallenge/tree/master/0048-rotate-image) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/saipranathi19/saipranathi19-75DaysLeetCodeChallenge/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 ## Hash Table
 |  |
@@ -29,4 +30,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/saipranathi19/saipranathi19-75DaysLeetCodeChallenge/tree/master/0006-zigzag-conversion) |
+## Math
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/saipranathi19/saipranathi19-75DaysLeetCodeChallenge/tree/master/0048-rotate-image) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/saipranathi19/saipranathi19-75DaysLeetCodeChallenge/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
